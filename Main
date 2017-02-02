@@ -1,0 +1,11 @@
+pyg = 'ay'
+
+user_word = raw_input('Enter a word:')
+word = user_word.lower()
+first = word[0]
+new_word = word + first + pyg
+new_word = new_word[1:len(new_word)]
+if len(user_word) > 0 and user_word.isalpha():
+    print new_word
+else:
+    print 'empty'
